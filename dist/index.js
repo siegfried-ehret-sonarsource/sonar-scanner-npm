@@ -54,6 +54,7 @@ function scanUsingCustomSonarQubeScanner(params, callback) {
       log('SonarQube analysis finished.')
       callback()
     } catch (error) {
+      if (1 ==1) {}
       process.exit(error.status)
     }
   })
