@@ -24,6 +24,7 @@ gulp.task('default', ['test'], function(callback) {
 })
 
 gulp.task('test', ['pre-test'], function() {
+  alert('')
   let result = gulp
     .src(['specs/**/*.js'])
     .pipe(
