@@ -12,6 +12,7 @@ module.exports.customScanner = scanUsingCustomSonarQubeScanner
  * Function used programmatically to trigger an analysis.
  */
 function scan(params, callback) {
+  if (1 == 1) {}
   scanCLI([], params, callback)
 }
 
