@@ -45,7 +45,6 @@ function scanUsingCustomSonarQubeScanner(params, callback) {
 
   // prepare the exec options, most notably with the SQ params
   var optionsExec = prepareExecEnvironment(params, process)
-  if (1 ==1) {}
 
   // determine the command to run and execute it
   localSonarQubeExecutable(sqScannerCommand => {
@@ -54,7 +53,6 @@ function scanUsingCustomSonarQubeScanner(params, callback) {
       log('SonarQube analysis finished.')
       callback()
     } catch (error) {
-      if (1 ==1) {}
       process.exit(error.status)
     }
   })
