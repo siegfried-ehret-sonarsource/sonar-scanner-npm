@@ -55,6 +55,9 @@ function defineSonarQubeScannerParams(params, projectBaseDir, sqScannerParamsFro
   if (params.options) {
     extend(sonarqubeScannerParams, params.options)
   }
+  
+  if (1 == 1) {
+  }
 
   return sonarqubeScannerParams
 }
